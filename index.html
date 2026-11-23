@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiteControl SA — Case Study</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+  <!-- Header -->
+  <header class="bg-slate-900 text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <span class="text-emerald-400 font-semibold tracking-wider uppercase text-sm">Case Study</span>
+      <h1 class="text-4xl md:text-5xl font-bold mt-2">SiteControl SA</h1>
+      <p class="text-slate-300 text-lg mt-4 max-w-2xl">
+        Replacing paper Occurrence Books (OBs) and manual overtime tracking with a real-time digital operations platform for South African security firms.
+      </p>
+      
+      <!-- Live Link & Demo Credentials Box -->
+      <div class="mt-8 bg-slate-800 border border-slate-700 rounded-lg p-5 inline-block">
+        <a href="https://sitecontrol-sa.onrender.com/" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 px-5 rounded transition">
+          Click here to view the live prototype &rarr;
+        </a>
+        <p class="text-sm text-slate-300 mt-3 font-mono">
+          Demo Login: <span class="text-white select-all">demo@sitecontrol.co.za</span> / <span class="text-white select-all">Security2026!</span>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto py-12 px-6 space-y-16">
+
+    <!-- 1. The Problem -->
+    <section>
+      <h2 class="text-2xl font-bold text-slate-900 border-b pb-2">1. The Problem</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p class="text-slate-600 leading-relaxed">
+            Security operations rely heavily on physical paper Occurrence Books (OBs) on site. Management had no real-time visibility into shift handovers, incident logs were difficult to audit, and calculating guard overtime at month-end led to costly administrative delays and payroll disputes.
+          </p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow border">
+          <img src="images/email_explaining_paper_ob_issues.png" alt="WhatsApp message from pilot explaining paper OB issues" class="rounded w-full" />
+          <p class="text-xs text-slate-400 mt-2 text-center">Initial discovery message from the pilot operations manager.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. The Solution -->
+    <section>
+      <h2 class="text-2xl font-bold text-slate-900 border-b pb-2">2. The Solution</h2>
+      <p class="text-slate-600 mt-4 leading-relaxed">
+        I engineered a centralized web application that digitizes site logging and automates overtime calculations, complete with client-ready reporting.
+      </p>
+      
+      <div class="mt-8 space-y-10">
+        <!-- Dashboard -->
+        <div class="bg-white p-4 rounded-lg shadow border">
+          <img src="images/dashboard_view.png" alt="SiteControl SA Operations Dashboard" class="rounded w-full" />
+          <p class="text-sm font-medium text-slate-700 mt-3">Operations Dashboard — Live overview of active sites, shift statuses, and flagged overtime.</p>
+        </div>
+
+        <!-- Mobile Form & PDF Report -->
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-white p-4 rounded-lg shadow border">
+            <img src="images/mobile_ob_view.png" alt="Mobile Occurrence Book Form" class="rounded w-full" />
+            <p class="text-sm font-medium text-slate-700 mt-3">Mobile OB Entry — Streamlined interface for on-site guards and supervisors.</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow border">
+            <img src="images/incident_report_weekly_print_preview.png" alt="Generated PDF Report" class="rounded w-full" />
+            <p class="text-sm font-medium text-slate-700 mt-3">Automated PDF Export — Audit-ready shift and overtime summaries for payroll and clients.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. The Tech Stack & 5. The Result -->
+    <section class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm border">
+        <h2 class="text-xl font-bold text-slate-900">3. The Tech Stack</h2>
+        <ul class="mt-4 space-y-2 text-slate-700">
+          <li><strong>Backend:</strong> Python & Django</li>
+          <li><strong>Database:</strong> PostgreSQL</li>
+          <li><strong>Deployment:</strong> Render (Production)</li>
+        </ul>
+      </div>
+
+      <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
+        <h2 class="text-xl font-bold text-emerald-950">4. The Result</h2>
+        <p class="mt-4 text-emerald-900 leading-relaxed">
+          Successfully deployed to production. Delivered a working prototype to a prospective pilot company, eliminating manual OB transcription and streamlining overtime verification.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-slate-400 text-sm py-10">
+    &copy; 2026 SiteControl SA. Built with Python & Django.
+  </footer>
+
+</body>
+</html>
